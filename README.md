@@ -23,13 +23,14 @@ Navigate to the Project Directory: Open your terminal and navigate to the direct
 `cd project-directory`
 Replace project-directory with the actual directory name where your project is located.
 
-## Build the Project with Cargo: Once you are inside the project directory, build the project and compile its dependencies using Cargo:
+## Build the Project with Cargo: 
+Once you are inside the project directory, build the project and compile its dependencies using Cargo:
 
 `cargo build`
 Cargo will automatically fetch and compile all the necessary dependencies for your project.
 
 ## Configuring the Port
-By default, the project listens on port 3030. However, you can configure the listening port by setting the PING_LISTEN_PORT environment variable. For example, to run the project on port 8080:
+By default, the project listens on port 8080. However, you can configure the listening port by setting the PING_LISTEN_PORT environment variable. For example, to run the project on port 8080:
 
 `export PING_LISTEN_PORT=8080`
 Replace 8080 with the desired port number.
